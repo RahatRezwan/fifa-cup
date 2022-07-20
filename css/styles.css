@@ -233,8 +233,9 @@ i {
     line-height: 60px;
 }
 .footer hr {
-    width: 1350px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1300px;
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 .footer-menu {
     margin-top: 50px;
@@ -244,6 +245,22 @@ i {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
+}
+.footer-menu ul li p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #b9b9b9;
+}
+.social-icon {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.social-icon i {
+    color: white;
+    font-size: 25px;
 }
 
 /* ---------------------------
