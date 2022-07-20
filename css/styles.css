@@ -214,6 +214,37 @@ i {
 /* ---------------------
      Footer Section
 --------------------- */
+.footer {
+    background-color: #161616;
+    padding: 130px 140px;
+    color: white;
+}
+.footer-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.footer hr {
+    width: 1350px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-menu {
+    margin-top: 50px;
+}
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
 
 /* ---------------------------
     Media Query for Mobile
