@@ -216,6 +216,95 @@ i {
 --------------------- */
 
 /* ---------------------------
+    Media Query for Mobile
+---------------------------- */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* banner section  */
+    .banner-elements {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-text {
+        width: auto;
+        height: 50%;
+        padding: 38px;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-elements .banner-text .banner-title {
+        margin: 10px 10px 0;
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 700;
+    }
+    .banner-text .description {
+        font-size: 14px;
+        margin: 8px 5px 30px;
+        line-height: 24px;
+        width: auto;
+        height: 48px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .banner-text .description:hover {
+        overflow: visible;
+    }
+    .live-btn p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .live-btn i {
+        font-size: 20px;
+    }
+    .banner-image {
+        padding-top: 21px;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Menu & Blog Section */
+    .menu-blog,
+    .menu-match {
+        margin: auto;
+    }
+    .menu {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .menus {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0 30px;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .menu-blog .blogs,
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* ---------------------------
     Media Query for Tablet
 ---------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1100px) {
