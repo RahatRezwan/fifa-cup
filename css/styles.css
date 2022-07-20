@@ -346,8 +346,11 @@ i {
         justify-content: space-between;
         gap: 20px;
     }
-    .menu-blog .blogs,
-    .matches {
+    .menu-blog .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu-match .matches {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
