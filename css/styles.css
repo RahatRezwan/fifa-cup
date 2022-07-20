@@ -351,6 +351,22 @@ i {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* Footer Secction */
+    .footer {
+        padding: 20px;
+    }
+    .footer .footer-content {
+        width: 100%;
+    }
+    .footer hr {
+        width: 90%;
+    }
+    .footer-menu ul {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
 /* ---------------------------
     Media Query for Tablet
@@ -428,6 +444,21 @@ i {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* footer section */
+    .footer {
+        padding: 70px 50px;
+    }
+    .footer .footer-content {
+        width: 100%;
+    }
+    .footer hr {
+        width: 90%;
+    }
+    .footer-menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 /* ------------------------------
@@ -449,5 +480,20 @@ i {
     .matches {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer section */
+    .footer {
+        padding: 100px 120px;
+    }
+    .footer .footer-content {
+        width: 100%;
+    }
+    .footer hr {
+        width: 90%;
+    }
+    .footer-menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
