@@ -150,6 +150,10 @@ a {
     border: 1px solid lightgray;
     border-radius: 10px;
 }
+.blog:hover,
+.match:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+}
 .blog img {
     width: 100%;
     border-radius: 10px 10px 0 0;
