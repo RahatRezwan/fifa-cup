@@ -20,6 +20,21 @@ a {
     text-decoration: none;
 }
 
+/*----------------------
+ Keyframe Section
+ --------------------  */
+@keyframes animate-btn {
+    from {
+        box-shadow: none;
+    }
+    to {
+        box-shadow: 0px 0px 25px #dd0000;
+    }
+}
+.animate {
+    animation: animate-btn 1s ease 1s infinite;
+    animation-play-state: running;
+}
 /* ---------------------
      Banner Section
 --------------------- */
